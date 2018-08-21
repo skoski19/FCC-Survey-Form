@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en" >
+
+<head>
+  <meta charset="UTF-8">
+  <title>Survey</title>
+  
+  
+  
+      <link rel="stylesheet" href="css/style.css">
+
+  
+</head>
+
+<body>
+
+   <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+<div id="main">
+  <h1 id="title">Super Powers</h1>
+    <p id="description">If you could have super powers...which would you choose?</p>
+	
+	<class="form-style">
+<form id="survey-form" id="survey-form">
+	<label for="name-label" class="form-label" id="name-label"><span class="required">*</span>Name:</label>
+	<input type="text" class="form-field" id="name" placeholder="Name" required/> <br>
+		
+	<label for="email-label" class="form-label" id="email-label"><span class="required">*</span>Email:</label>
+	<input type="email" class="form-field" id="email" placeholder="Email Address" required/><br>
+	
+	<label for="number-label" class="form-label" id="number-label"><span class="required">*</span>Age:</label>		
+	<input type="number" id="number" class="form-field" min="1" max="101" placeholder = "Age" required><br>
+
+	<div class="form-label"><p>Who is your favorite Superhero?</div>
+			<select name="superhero" id="dropdown">
+				<option selected disabled>Select an option</option>
+    		<option value="batman">Batman</option>
+    		<option value="superman">Superman</option>
+   	 		<option value="wonderwoman">Wonder Woman</option>
+    		<option value="spiderman">Spiderman</option>
+				<option value="hulk">Hulk</option>
+				<option value="other">Other</option>
+  		</select>
+	
+	<br>
+			<div class="form-label">How likely would you be able to keep your super power a secret?</div>
+			
+			<div id="radio-buttons"><input type="radio" name="name1" class="userSelect" value="yes"> Definitely</> <br>
+			<input type="radio" name="name2" class="userSelect" value="maybe"> Hmm..Maybe.. </><br>
+  		<input type="radio" name="name3" class="userSelect" value="no"> No Way!!</> </div>
+			<br>
+
+	<div class="form-label">Would you use your powers for good?</div>
+			
+			<div id="radio-buttons"><input type="radio" name="name1" class="userSelect" value="yes"> Definitely</> <br>
+			<input type="radio" name="name2" class="userSelect" value="maybe"> Hmm..Maybe.. </><br>
+  		<input type="radio" name="name3" class="userSelect" value="no"> No Way!!</> </div>
+			<br>
+
+			<div class="form-label">Select Your Super Power: <br>(Check all that apply)</div>
+			<div id="checkbox-power">
+			<input type="checkbox" name="power1" value="invisibility">Invisibility<br>
+			<input type="checkbox" name="power2" value="xrayvision">X-ray Vision<br>
+			<input type="checkbox" name="power3" value="superhumanstrength" >Super Human Strength<br>
+			<input type="checkbox" name="power4" value="healing">Healing<br>
+			<input type="checkbox" name="power5" value="agility">Agility<br>
+			<input type="checkbox" name="power6" value="gadgets">Endless Gadgets<br>
+			<input type="checkbox" name="power7" value="teleport">Teleportation<br>
+			<input type="checkbox" name="power8" value="flight">Flight<br>
+				</div>
+	<br><br>
+	<div class="form-label">Any Comments or Suggestions?</div>
+	<textarea id="text-comments" rows="5" cols="50" id="comments" placeholder = "Enter comments here..."></textarea>
+<br>
+	<br>
+<button type="submit" id="submit" form="survey-form" value="Submit">Submit</button>
+
+	</form>
+</div>
+  
+  
+
+</body>
+
+</html>

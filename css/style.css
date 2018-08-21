@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css?family=Oxygen');
+
+#main {
+    background-color: #EBDEF0;
+    margin: 0 auto;
+    border-radius: 4px;
+    width: 80%;
+    max-width: 900px;
+    padding: 50px;
+    padding-top: 20px;
+		font-family: 'Oxygen', serif;
+}
+
+body{
+	background-color: #34495E;
+}
+
+#title, #description{
+  font-family: 'Oxygen', serif;
+	text-align: center;
+}
+
+.form-label{
+	  display: inline-block;
+	font-weight: bold;
+    text-align: right;
+		font-weight: 2px;
+    width: 40%;
+    padding: 5px;
+    vertical-align: middle;
+    margin-top: 5px;
+}
+
+.form-field{
+		font-family: 'Oxygen', serif;
+	  height: 30px;
+    width: 300px;
+    padding: 5px;
+    margin: 10px;
+    border: 1px solid #c0c0c0;
+    text-align: left;
+    vertical-align: middle;
+}
+
+#dropdown{
+		font-family: 'Oxygen', serif;
+	  height: 45px;
+    width: 300px;
+    padding: 5px;
+    margin: 10px;
+    border: 1px solid #c0c0c0;
+    border-radius: 2px;
+}
+
+#radio-buttons, #checkbox-power{
+		display: inline-block;
+    text-align: left;
+    width: 30%;
+    padding: 5px;
+    vertical-align: top;
+    margin-top: 5px;
+}
+
+#text-comments{
+		display: inline-block;
+    text-align: left;
+    width: 300px;
+    padding: 5px;
+    vertical-align: top;
+    margin-top: 5px;
+}
+
+.required{
+    color:red;
+}
+
+#submit{
+	width: 15%;
+	margin-left: 40%;
+	margin-right: 30%
+}
+
+
+
+
